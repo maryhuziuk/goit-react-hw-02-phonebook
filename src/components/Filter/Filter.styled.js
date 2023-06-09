@@ -14,11 +14,15 @@ background-color: white`;
   display: flex;
   flex-direction: column;
   gap: 18px;
+  font-family: Cursive;
+
+
 `;
 export const InputFilter = styled.input`
     width: 400px;
   height: 40px;
   font-size: 16px;
   border-radius: 4px
-  border: 3px solid #ee82ee
+  border: 1px solid #ee82ee;
+  font-family: Cursive;
 `;

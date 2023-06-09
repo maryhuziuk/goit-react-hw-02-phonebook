@@ -80,7 +80,7 @@ export class App extends Component {
                       onDeleteContact={deleteContact}
                     />
                 ) : (
-                  <Message>Nothing foun !</Message>
+                  <Message>Nothing found !</Message>
                 )}
               </>
             ) : (

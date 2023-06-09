@@ -12,17 +12,15 @@ export const LabelStyle = styled.label`
   display: flex;
   flex-direction: column;
   gap: 18px;
+  font-family: Cursive;
   div {
     padding: 8px;
-    border: ${({ theme }) => {
-      return theme.buttonBorder;
-    }};
-    border-radius: ${({ theme }) => {
-      return theme.inputBorderRadius;
-    }};
+    border: 1px solid #ee82ee;
+    border-radius: 4px;
     background-color: #ffc4c4;
     width: 288px;
     font-size: 14px;
+    font-family: Cursive;
     &::first-letter {
       text-transform: uppercase;
     }
@@ -33,12 +31,7 @@ export const InputStyle = styled.input`
   width: 300px;
   height: 40px;
   font-size: 16px;
-  ${'' /* border-radius: ${({ theme }) => {
-    return theme.inputBorderRadius;
-  }};
-  border: ${({ theme }) => {
-    return theme.buttonBorder;
-  }}; */}
+  font-family: Cursive;
   &::placeholder {
     font-size: 16px;
   }
@@ -48,15 +41,10 @@ export const ButtonStyle = styled.button`
   width: 150px;
   height: 40px;
   transform: scale(1);
-  ${'' /* background-color: ${({ theme }) => {
-    return theme.colors.buttonBackgroundColor;
-  }};
-  border-radius: ${({ theme }) => {
-    return theme.buttonBorderRadius;
-  }};
-  border: ${({ theme }) => {
-    return theme.buttonBorder;
-  }}; */}
+  background-color: #ffccff;
+  border-radius: 10px;
+  border: 1px solid #ee82ee;
+  font-family: Cursive;
 
   font-size: 16px;
   transition: transform 250ms ease-out, background-color 250ms ease-out;

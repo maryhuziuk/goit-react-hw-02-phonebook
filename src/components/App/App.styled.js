@@ -10,12 +10,9 @@ export const Message = styled.p`
   justify-content: center;
   align-items: center;
   margin: 0;
-  font-size: 24px;
+  font-size: 18px;
   width: 500px;
   height: 70px;
-  background-color: white;
-  border-radius: 4px;
-  border: 3px solid #ee82ee
   text-align: center;
   color: black
 `;
@@ -48,10 +45,13 @@ export const Title = styled.h1`
   text-align: center;
   font-size: 32px;
   text-transform: uppercase;
+  text-shadow: 2px 2px;
 `;
 
 export const SectionTitle = styled.h2`
   margin-top: 0;
   text-align: center;
   font-size: 28px;
+  font-family: Cursive;
+
 `;

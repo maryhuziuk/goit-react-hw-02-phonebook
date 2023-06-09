@@ -17,16 +17,20 @@ export const List = styled.ul`
   height: 40px;
   padding: 5px;
   font-size: 16px;
+  font-family: Cursive;
   background-color: white`;
+  
 
 
 export const ButtonContacts = styled.button`
      width: 70px;
   height: 40px;
   transform: scale(1);
-  background-color: pink
-  border-radius:5%
-  border: black
+  background-color: #ccffff;
+  border-radius: 10px;
+  border: 1px solid #ccafff;
+  font-family: Cursive;
+
 
   font-size: 14px;
   transition: transform 250ms ease-out, background-color 250ms ease-out;
