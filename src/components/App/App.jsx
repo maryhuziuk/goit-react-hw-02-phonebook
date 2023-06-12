@@ -12,6 +12,8 @@ import {
   Message,
 } from './App.styled.js';
 
+
+
 export class App extends Component {
   state = {
     contacts: [
@@ -26,12 +28,10 @@ export class App extends Component {
   addContact = ({ name, number }) => {
     const contact = { id: nanoid(), name, number };
     const normalizedName = name.toLowerCase();
-
-    if (
-      this.state.contacts.find(
-        contact => contact.name.toLowerCase() === normalizedName
-      )
-    ) {
+    const findContacts = this.state.contacts.find(
+      contact => contact.name.toLowerCase() === normalizedName
+    )
+    if (findContacts) {
       return alert(`${name} is already in contacts!`);
     }
 
